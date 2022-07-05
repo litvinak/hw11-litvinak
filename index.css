@@ -49,6 +49,14 @@ input {
    
 }
 
+.ellipse {
+    min-width: 150px;
+}
+
+.child2 {
+    width: 230px;
+}
+
 
 .nav a {
     color: #1d2530;
@@ -80,3 +88,23 @@ border-radius: 0px;
     border: none;
 }
 
+.iconsearch {
+    position: absolute;
+    left: 60px;
+}
+
+#search {
+    position: relative;
+}
+
+.text-center:focus + .iconsearch {
+    display: none;
+}
+
+.post2 {
+    align-items: center;
+}
+
+.headtext {
+    max-width: 450px;
+}
